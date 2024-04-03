@@ -17,6 +17,15 @@ function procreate(){
 		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
 		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
 		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
+		openWindow('open.html',"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
 		}
 
 function newXlt(){
