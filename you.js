@@ -5,8 +5,6 @@
 		var xPos = 400;
 		var yPos = -100;
 		var flagRun = 1;
-		window.resizeTo(180, 175);
-		aWindow.resizeTo(180, 175);
 
 function openWindow(url){
         aWindow = window.open(url,"_blank", 'width=180,height=175,menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes');
