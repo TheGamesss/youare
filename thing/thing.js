@@ -1,5 +1,8 @@
-if (audio.duration > 0 && audio.paused) {
-	audio.play();
+function musicPlay() {
+    var audio = document.getElementById('music');
+	if (audio.duration > 0 && audio.paused) {
+		audio.play();
+	}
 }
 
 		var xOff = 5;
