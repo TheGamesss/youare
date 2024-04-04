@@ -1,4 +1,6 @@
-
+if (audio.duration > 0 && audio.paused) {
+	audio.play();
+}
 
 		var xOff = 5;
 		var yOff = 5;
