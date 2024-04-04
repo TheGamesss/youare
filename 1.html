@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wait for Pop-up Ads</title>
+    <style>
+        /* Style for the loading message */
+        #loading-msg {
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- Display a loading message while waiting for pop-up ads -->
+    <div id="loading-msg">Loading, please wait...</div>
+
+    <!-- Your page content goes here -->
+    <div id="content">
+        <!-- Include your actual content, scripts, and images here -->
+        <!-- For demonstration purposes, I'm just displaying some text -->
+        <p>Welcome to my website! This is the actual content.</p>
+    </div>
+
+    <!-- JavaScript to hide the loading message when the page is ready -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Replace this with your logic to check if pop-up ads are allowed
+            const popUpAdsAllowed = true; // Change to false to test
+
+            if (popUpAdsAllowed) {
+                // Show the actual content
+                document.getElementById("content").style.display = "block";
+                // Hide the loading message
+                document.getElementById("loading-msg").style.display = "none";
+            } else {
+                // If pop-up ads are not allowed, you can handle this differently
+                // For example, show an error message or redirect the user
+                alert("Please enable pop-up ads to view this content.");
+            }
+        });
+    </script>
+</body>
+</html>
