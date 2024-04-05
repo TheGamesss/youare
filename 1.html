@@ -3,42 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wait for Pop-up Ads</title>
-    <style>
-        /* Style for the loading message */
-        #loading-msg {
-            font-size: larger;
+    <title>Popup Ad Check</title>
+    <script>
+        // Check if popups are allowed
+        function checkPopupBlocker() {
+            const popupWindow = window.open('', 'popupTest', 'width=200,height=100');
+            if (popupWindow) {
+                popupWindow.close();
+                console.log('Popups are allowed.');
+                // Load your page content here
+            } else {
+                console.log('Popups are blocked. Page will not load.');
+                // Optionally, you can display a message to the user
+                // or redirect them to another page.
+            }
         }
-    </style>
+
+        // Call the function when the page loads
+        window.onload = checkPopupBlocker;
+    </script>
 </head>
 <body>
-    <!-- Display a loading message while waiting for pop-up ads -->
-    <div id="loading-msg">Loading, please wait...</div>
-
     <!-- Your page content goes here -->
-    <div id="content">
-        <!-- Include your actual content, scripts, and images here -->
-        <!-- For demonstration purposes, I'm just displaying some text -->
-        <p>Welcome to my website! This is the actual content.</p>
-    </div>
-
-    <!-- JavaScript to hide the loading message when the page is ready -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Replace this with your logic to check if pop-up ads are allowed
-            const popUpAdsAllowed = true; // Change to false to test
-
-            if (popUpAdsAllowed) {
-                // Show the actual content
-                document.getElementById("content").style.display = "block";
-                // Hide the loading message
-                document.getElementById("loading-msg").style.display = "none";
-            } else {
-                // If pop-up ads are not allowed, you can handle this differently
-                // For example, show an error message or redirect the user
-                alert("Please enable pop-up ads to view this content.");
-            }
-        });
-    </script>
+    <h1>Welcome to My Website</h1>
+    <p>This is some content.</p>
 </body>
 </html>
